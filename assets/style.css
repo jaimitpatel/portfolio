@@ -1,0 +1,156 @@
+
+.button {
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.footer {
+    background: black;
+    padding: 30px 25px;
+   
+}
+
+.footer h4 {
+    font-size: 20px;
+    font-style: italic;
+    float: right;
+}
+
+.hello {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.hello h2,  .hero p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin: 10%;
+    width: 35%;
+    font-size: 3.5vw;
+    line-height: 1.2;
+    color: black;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.section-title {
+    font-size: 2.25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px 100px 20px 100px;
+    margin: 0 auto;
+}
+
+.bio p {
+    line-height: 1.5;
+    width: 80%;
+    font-size: 20px;
+    font-style: italic;
+    margin: 0 auto;
+    text-align: center;
+    padding: auto;
+}
+
+.my-portfolio {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.portfolio-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.contact-info {
+    padding: 1.5vw;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    margin: 20px 0;
+}
+
+.contact-links {
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+    color: black;
+}
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li {
+    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    padding: 10px;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+/* Home Screen */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('/assets/background.jpg') no-repeat center center/cover;
+    height: 1920px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9
+}
