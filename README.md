@@ -1,9 +1,9 @@
 ## Links:
-```
-deployed link- https://jaimitpatel.github.io/portfolio/
+
+deployed link- https://jaimitpatel.github.io/portfolio/ <br>
 github link- https://github.com/jaimitpatel/portfolio
 
-```
+
 ## Acceptance Criteria:
 ```
 GIVEN I need to sample a potential employee's previous work
